@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<railsys>
+	<version major="1" minor="2" patchlevel="0" comment="Erzeugt von RailSys\Simu/7.6.12 am Do 28. Nov 11:54:54 2019"/>
+	<timetable>
+        <train number="100" class="FRz" pattern="/Rz" name="100" typeNumber="line_1_train" constructionState="verkehrt">
+			<timetableentries>
+                <entry stationID="33" trackID="2121" bstfahrweg="33UE-33UW_0" departure="01:00:00" minStopTime="30" stopTime="30" regularRunningTime="85" type="stop" timingPoint="true" departureFix="true"/>
+				<entry stationID="32" trackID="2116" bstfahrweg="32UE-32UW_0" departure="01:01:55" minStopTime="30" stopTime="30" regularRunningTime="90" type="stop" timingPoint="true"/>
+				<entry stationID="31" trackID="2112" bstfahrweg="31UE-31UW_0" departure="01:03:55" minStopTime="30" stopTime="30" regularRunningTime="72" type="stop" timingPoint="true"/>
+                <entry stationID="30" trackID="2109" bstfahrweg="30UE-30UW_0" departure="01:05:37" minStopTime="30" stopTime="30" regularRunningTime="71" type="stop" timingPoint="true"/>
+			    <entry stationID="29" trackID="2099" bstfahrweg="29UE-29UW_0" departure="01:07:18" minStopTime="30" stopTime="30" regularRunningTime="89" type="stop" timingPoint="true"/>
+                <entry stationID="28" trackID="2096" bstfahrweg="28UE-28UW_0" departure="01:09:17" minStopTime="30" stopTime="30" regularRunningTime="79" type="stop" timingPoint="true"/>
+                <entry stationID="27" trackID="2093" bstfahrweg="27UE-27UW_0" departure="01:11:06" minStopTime="30" stopTime="30" regularRunningTime="85" type="stop" timingPoint="true"/>
+                <entry stationID="26" trackID="2091" bstfahrweg="26UE-26UW_0" departure="01:13:01" minStopTime="30" stopTime="30" regularRunningTime="111" type="stop" timingPoint="true"/>
+                <entry stationID="25" trackID="2082" bstfahrweg="25UE-25UW_0" departure="01:15:22" minStopTime="30" stopTime="30" regularRunningTime="162" type="stop" timingPoint="true"/>
+                <entry stationID="24" trackID="2078" bstfahrweg="24UE-24UW_0" departure="01:18:34" minStopTime="30" stopTime="30" regularRunningTime="90" type="stop" timingPoint="true"/>
+                <entry stationID="23" trackID="2066" bstfahrweg="23UE-23UW_0" departure="01:20:34" minStopTime="30" stopTime="30" regularRunningTime="83" type="stop" timingPoint="true"/>
+                <entry stationID="22" trackID="2062" bstfahrweg="22UE-22UW_0" departure="01:22:27" minStopTime="30" stopTime="30" regularRunningTime="72" type="stop" timingPoint="true"/>
+                <entry stationID="21" trackID="2060" bstfahrweg="21UE-21UW_0" departure="01:24:09" minStopTime="30" stopTime="30" regularRunningTime="65" type="stop" timingPoint="true"/>
+                <entry stationID="20" trackID="2055" bstfahrweg="20UE-20UW_0" departure="01:25:44" minStopTime="30" stopTime="30" regularRunningTime="123" type="stop" timingPoint="true"/>
+                <entry stationID="19" trackID="2049" bstfahrweg="19UE-19UW_0" departure="01:28:17" minStopTime="30" stopTime="30" regularRunningTime="83" type="stop" timingPoint="true"/>
+                <entry stationID="18" trackID="2046" bstfahrweg="18UE-18UW_0" departure="01:30:10" minStopTime="30" stopTime="30" regularRunningTime="81" type="stop" timingPoint="true"/>
+                <entry stationID="17" trackID="2036" bstfahrweg="17UE-17UW_0" departure="01:32:01" minStopTime="30" stopTime="30" regularRunningTime="118" type="stop" timingPoint="true"/>
+                <entry stationID="16" trackID="2032" bstfahrweg="16UE-16UW_0" departure="01:34:29" minStopTime="30" stopTime="30" regularRunningTime="83" type="stop" timingPoint="true"/>
+                <entry stationID="15" trackID="2029" bstfahrweg="15UE-15UW_0" departure="01:36:22" minStopTime="30" stopTime="30" regularRunningTime="82" type="stop" timingPoint="true"/>
+                <entry stationID="14" trackID="2025" bstfahrweg="14UE-14UW_0" departure="01:38:14" minStopTime="30" stopTime="30" regularRunningTime="72" type="stop" timingPoint="true"/>
+                <entry stationID="13" trackID="2020" bstfahrweg="13UE-13UW_0" departure="01:39:56" minStopTime="30" stopTime="30" regularRunningTime="68" type="stop" timingPoint="true"/>
+                <entry stationID="12" trackID="2018" bstfahrweg="12UE-12UW_0" departure="01:41:34" minStopTime="30" stopTime="30" regularRunningTime="134" type="stop" timingPoint="true"/>
+                <entry stationID="11" trackID="2004" bstfahrweg="11UE-11UW_0" departure="01:44:18" minStopTime="30" stopTime="30" type="stop" timingPoint="true"/>            
+            </timetableentries>
+		</train>
+	</timetable>
+</railsys>

@@ -1,0 +1,21 @@
+# ---------------------------------------------------------------------
+# RailSys\Sted Version 7.6.12: Eingabedatei Stellwerkdatei
+# Dateiname           C:/Projects/2011 RailSys 7 Data/2loops/var-2019/dat/Temp/stellwerke.dat
+# erzeugt am          28 Nov 2019 11:15:11
+# ---------------------------------------------------------------------
+
+
+# ---------------------------------------------------------------------
+# Stellwerktyp <neu 0>
+# ---------------------------------------------------------------------
+
+stellwerk <neu 0>
+ kuerzel  sw-c
+ stwz-kuerzel 
+ stwz-name 
+ id       0
+ tbilden  0
+ tloesen  0
+ teilaufloesung
+endstellwerk
+

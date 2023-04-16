@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<railsys>
+	<version major="1" minor="2" patchlevel="0" comment="Erzeugt von RailSys\Simu/7.6.12 am Do 28. Nov 11:54:54 2019"/>
+	<timetable>
+		<train number="100" class="FRz" pattern="/Rz" name="100" typeNumber="62" constructionState="verkehrt">
+			<header>
+				<service opday="127" extOpday="16"/>
+			</header>
+			<timetableentries>
+				<entry stationID="WS" trackID="W-1" bstfahrweg="[SW]-[100/1]-[1]-[NW]-[100/1] (1)" departure="01:00:00" minStopTime="120" stopTime="120" regularRunningTime="797" type="stop" trainTypeNumber="62" lineID="100" timingPoint="true" departureFix="true"/>
+				<entry stationID="NW" trackID="N-1" bstfahrweg="[WS]-[100/1]-[1]-[MS]-[100/1] (1)" departure="01:13:17" regularRunningTime="902" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="MS" trackID="M-1" bstfahrweg="[NW]-[100/1]-[1]-[SW]-[100/1] (2)" departure="01:28:19" regularRunningTime="866" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="SW" trackID="S-1" bstfahrweg="[MS]-[100/1]-[1]-[WS]-[100/1] (1)" departure="01:42:45" regularRunningTime="789" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="WS" trackID="W-2" bstfahrweg="[SW]-[100/1]-[2]-[NW]-[100/1] (2)" departure="01:57:54" minStopTime="120" stopTime="120" RTMargin2="0" type="stop" trainTypeNumber="62" timingPoint="true"/>
+			</timetableentries>
+		</train>		
+	</timetable>
+</railsys>

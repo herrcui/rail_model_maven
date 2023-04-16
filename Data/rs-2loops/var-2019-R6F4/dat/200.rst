@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<railsys>
+	<version major="1" minor="2" patchlevel="0" comment="Erzeugt von RailSys\Simu/7.6.12 am Do 28. Nov 11:54:54 2019"/>
+	<timetable>
+		<train number="200" class="Gz" pattern="/Gz" name="200" typeNumber="16020" constructionState="verkehrt">
+			<header>
+				<service opday="127" extOpday="16"/>
+			</header>
+			<timetableentries>
+				<entry stationID="ES" trackID="E-1" bstfahrweg="[SE]-[200/1]-[1]-[NE]-[200/1] (1)" departure="00:30:00" minStopTime="120" stopTime="120" regularRunningTime="1612" type="stop" trainTypeNumber="16020" lineID="200" timingPoint="true" departureFix="true"/>
+				<entry stationID="NE" trackID="N-1" bstfahrweg="[ES]-[200/1]-[1]-[MS]-[200/1] (1)" departure="00:56:52" regularRunningTime="1498" type="pass" trainTypeNumber="16020" timingPoint="true"/>
+				<entry stationID="MS" trackID="M-1" bstfahrweg="[NE]-[200/1]-[1]-[SE]-[200/1] (1)" departure="01:21:50" regularRunningTime="3054" type="pass" trainTypeNumber="16020" timingPoint="true"/>
+				<entry stationID="SE" trackID="S-1" bstfahrweg="[MS]-[200/1]-[1]-[ES]-[200/1] (1)" departure="01:46:51" RTMargin2="0" type="pass" trainTypeNumber="16020"/>
+				<entry stationID="ES" trackID="E-2" bstfahrweg="[SE]-[200/1]-[2]-[NE]-[200/1] (2)" departure="02:14:44" minStopTime="120" stopTime="120" RTMargin2="0" type="stop" trainTypeNumber="16020" timingPoint="true"/>
+			</timetableentries>
+		</train>
+		<train number="202" class="Gz" pattern="/Gz" name="202" typeNumber="16020" constructionState="verkehrt">
+			<header>
+				<service opday="127" extOpday="16"/>
+			</header>
+			<timetableentries>
+				<entry stationID="ES" trackID="E-1" bstfahrweg="[SE]-[200/1]-[1]-[NE]-[200/1] (1)" departure="01:00:00" minStopTime="120" stopTime="120" regularRunningTime="1612" type="stop" trainTypeNumber="16020" lineID="200" timingPoint="true" departureFix="true"/>
+				<entry stationID="NE" trackID="N-1" bstfahrweg="[ES]-[200/1]-[1]-[MS]-[200/1] (1)" departure="01:26:52" regularRunningTime="1498" type="pass" trainTypeNumber="16020" timingPoint="true"/>
+				<entry stationID="MS" trackID="M-1" bstfahrweg="[NE]-[200/1]-[1]-[SE]-[200/1] (1)" departure="01:51:50" regularRunningTime="3054" type="pass" trainTypeNumber="16020" timingPoint="true"/>
+				<entry stationID="SE" trackID="S-1" bstfahrweg="[MS]-[200/1]-[1]-[ES]-[200/1] (1)" departure="02:16:51" RTMargin2="0" type="pass" trainTypeNumber="16020"/>
+				<entry stationID="ES" trackID="E-2" bstfahrweg="[SE]-[200/1]-[2]-[NE]-[200/1] (2)" departure="02:44:44" minStopTime="120" stopTime="120" RTMargin2="0" type="stop" trainTypeNumber="16020" timingPoint="true"/>
+			</timetableentries>
+		</train>
+		<train number="204" class="Gz" pattern="/Gz" name="204" typeNumber="16020" constructionState="verkehrt">
+			<header>
+				<service opday="127" extOpday="16"/>
+			</header>
+			<timetableentries>
+				<entry stationID="ES" trackID="E-1" bstfahrweg="[SE]-[200/1]-[1]-[NE]-[200/1] (1)" departure="01:30:00" minStopTime="120" stopTime="120" regularRunningTime="1612" type="stop" trainTypeNumber="16020" lineID="200" timingPoint="true" departureFix="true"/>
+				<entry stationID="NE" trackID="N-1" bstfahrweg="[ES]-[200/1]-[1]-[MS]-[200/1] (1)" departure="01:56:52" regularRunningTime="1498" type="pass" trainTypeNumber="16020" timingPoint="true"/>
+				<entry stationID="MS" trackID="M-1" bstfahrweg="[NE]-[200/1]-[1]-[SE]-[200/1] (1)" departure="02:21:50" regularRunningTime="3054" type="pass" trainTypeNumber="16020" timingPoint="true"/>
+				<entry stationID="SE" trackID="S-1" bstfahrweg="[MS]-[200/1]-[1]-[ES]-[200/1] (1)" departure="02:46:51" RTMargin2="0" type="pass" trainTypeNumber="16020"/>
+				<entry stationID="ES" trackID="E-2" bstfahrweg="[SE]-[200/1]-[2]-[NE]-[200/1] (2)" departure="03:14:44" minStopTime="120" stopTime="120" RTMargin2="0" type="stop" trainTypeNumber="16020" timingPoint="true"/>
+			</timetableentries>
+		</train>
+		<train number="206" class="Gz" pattern="/Gz" name="206" typeNumber="16020" constructionState="verkehrt">
+			<header>
+				<service opday="127" extOpday="16"/>
+			</header>
+			<timetableentries>
+				<entry stationID="ES" trackID="E-1" bstfahrweg="[SE]-[200/1]-[1]-[NE]-[200/1] (1)" departure="02:00:00" minStopTime="120" stopTime="120" regularRunningTime="1612" type="stop" trainTypeNumber="16020" lineID="200" timingPoint="true" departureFix="true"/>
+				<entry stationID="NE" trackID="N-1" bstfahrweg="[ES]-[200/1]-[1]-[MS]-[200/1] (1)" departure="02:26:52" regularRunningTime="1498" type="pass" trainTypeNumber="16020" timingPoint="true"/>
+				<entry stationID="MS" trackID="M-1" bstfahrweg="[NE]-[200/1]-[1]-[SE]-[200/1] (1)" departure="02:51:50" regularRunningTime="3054" type="pass" trainTypeNumber="16020" timingPoint="true"/>
+				<entry stationID="SE" trackID="S-1" bstfahrweg="[MS]-[200/1]-[1]-[ES]-[200/1] (1)" departure="03:16:51" RTMargin2="0" type="pass" trainTypeNumber="16020"/>
+				<entry stationID="ES" trackID="E-2" bstfahrweg="[SE]-[200/1]-[2]-[NE]-[200/1] (2)" departure="03:44:44" minStopTime="120" stopTime="120" RTMargin2="0" type="stop" trainTypeNumber="16020" timingPoint="true"/>
+			</timetableentries>
+		</train>
+	</timetable>
+</railsys>

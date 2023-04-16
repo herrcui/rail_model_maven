@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<railml version="2.2">
+<infrastructure/>
+<rollingstock/>
+<timetable>
+<trainParts>
+<trainPart description="" id="HF-JLW100-1" trainNumber="100">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="HFS%2005%11DW-11DE_0_OP-2005" ocpType="stop">
+<times arrival="00:59:30" departure="01:00:00" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="CHS%2017%12DW-12DE_0_OP-2017" ocpType="stop">
+<times arrival="01:01:23" departure="01:01:53" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="MGR%2019%13DW-13DE_0_OP-2019" ocpType="stop">
+<times arrival="01:02:56" departure="01:03:26" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="DDM%2026%14DW-14DE_0_OP-2026" ocpType="stop">
+<times arrival="01:04:48" departure="01:05:18" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="BGY%2030%15DW-15DE_0_OP-2030" ocpType="stop">
+<times arrival="01:06:43" departure="01:07:13" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="HGD%2033%16DW-16DE_0_OP-2033" ocpType="stop">
+<times arrival="01:08:35" departure="01:09:05" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="ZGS%2039%17DW-17DE_0_OP-2039" ocpType="stop">
+<times arrival="01:10:58" departure="01:11:28" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="QPH%2045%18DW-18DE_0_OP-2045" ocpType="stop">
+<times arrival="01:12:43" departure="01:13:13" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="GDD%2050%19DW-19DE_0_OP-2050" ocpType="stop">
+<times arrival="01:14:29" departure="01:14:59" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="WHC%2058%20DW-20DE_0_OP-2058" ocpType="stop">
+<times arrival="01:16:51" departure="01:17:21" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="HFN%2059%21DW-21DE_0_OP-2059" ocpType="stop">
+<times arrival="01:18:38" departure="01:19:08" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="NGC%2063%22DW-22DE_0_OP-2063" ocpType="stop">
+<times arrival="01:20:15" departure="01:20:45" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="LGS%2071%23DW-23DE_0_OP-2071" ocpType="stop">
+<times arrival="01:22:01" departure="01:22:31" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="GWS%2079%24DW-24DE_0_OP-2079" ocpType="stop">
+<times arrival="01:23:54" departure="01:24:24" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="BHS%2083%25DW-25DE_0_OP-2083" ocpType="stop">
+<times arrival="01:26:54" departure="01:27:24" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="ZLS%2090%26DW-26DE_0_OP-2090" ocpType="stop">
+<times arrival="01:29:15" departure="01:29:45" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="TXH%2092%27DW-27DE_0_OP-2092" ocpType="stop">
+<times arrival="01:31:03" departure="01:31:33" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="JDY%2097%28DW-28DE_0_OP-2097" ocpType="stop">
+<times arrival="01:32:46" departure="01:33:16" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="YGR%2102%29DW-29DE_0_OP-2102" ocpType="stop">
+<times arrival="01:34:42" departure="01:35:12" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="WDC%2108%30DW-30DE_0_OP-2108" ocpType="stop">
+<times arrival="01:36:17" departure="01:36:47" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="WNB%2113%31DW-31DE_0_OP-2113" ocpType="stop">
+<times arrival="01:37:53" departure="01:38:23" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="BZP%2117%32DW-32DE_0_OP-2117" ocpType="stop">
+<times arrival="01:39:45" departure="01:40:15" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="JLW%2124%33DW-33ME2_0_OP-2124" ocpType="stop">
+<times arrival="01:41:33" departure="01:42:03" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+</trainParts>
+<trains>
+<train description="" id="HF-JLW100" trainNumber="100" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="HF-JLW100-1"/>
+</trainPartSequence>
+</train>
+</trains>
+<trainGroups>
+<trainGroup description="" id="HF-JLW">
+<trainRef ref="HF-JLW100" sequence="1"/>
+</trainGroup>
+</trainGroups>
+</timetable>
+</railml>

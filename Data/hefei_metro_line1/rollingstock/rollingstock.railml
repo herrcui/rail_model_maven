@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<railml version="2.2">
+    <rollingstock id="hefei_metro.railML" version="2.2">
+        <vehicles>
+            <vehicle id="M" name="motor" length="19" speed="80"  bruttoWeight="50" bruttoAdhesionWeight="50">
+				<engine>
+					<propulsion id="motor" powerType="electric" power="720000" rotationMassFactor="1.000" description="other">
+						<tractiveEffort>
+							<valueTable xValueName="Speed" xValueUnit="km/h" yValueName="Tractive Effort" yValueUnit="N">
+								<valueLine xValue="0.0">
+								<values yValue="80850.0"/>
+								</valueLine>
+								<valueLine xValue="1.0">
+								<values yValue="80850.0"/>
+								</valueLine>
+								<valueLine xValue="32.1">
+								<values yValue="80850.0"/>
+								</valueLine>
+								<valueLine xValue="33.0">
+								<values yValue="78545.5"/>
+								</valueLine>
+								<valueLine xValue="34.0">
+								<values yValue="76235.3"/>
+								</valueLine>
+								<valueLine xValue="35.0">
+								<values yValue="74057.1"/>
+								</valueLine>
+								<valueLine xValue="36.0">
+								<values yValue="72000.0"/>
+								</valueLine>
+								<valueLine xValue="37.0">
+								<values yValue="70054.1"/>
+								</valueLine>
+								<valueLine xValue="38.0">
+								<values yValue="68210.5"/>
+								</valueLine>
+								<valueLine xValue="39.0">
+								<values yValue="66461.5"/>
+								</valueLine>
+								<valueLine xValue="40.0">
+								<values yValue="64800.0"/>
+								</valueLine>
+								<valueLine xValue="41.0">
+								<values yValue="63219.5"/>
+								</valueLine>
+								<valueLine xValue="42.0">
+								<values yValue="61714.3"/>
+								</valueLine>
+								<valueLine xValue="43.0">
+								<values yValue="60279.1"/>
+								</valueLine>
+								<valueLine xValue="44.0">
+								<values yValue="58909.1"/>
+								</valueLine>
+								<valueLine xValue="45.0">
+								<values yValue="57600.0"/>
+								</valueLine>
+								<valueLine xValue="46.0">
+								<values yValue="56347.8"/>
+								</valueLine>
+								<valueLine xValue="47.0">
+								<values yValue="55148.9"/>
+								</valueLine>
+								<valueLine xValue="48.0">
+								<values yValue="54000.0"/>
+								</valueLine>
+								<valueLine xValue="49.0">
+								<values yValue="52898.0"/>
+								</valueLine>
+								<valueLine xValue="50.0">
+								<values yValue="51840.0"/>
+								</valueLine>
+								<valueLine xValue="51.0">
+								<values yValue="50823.5"/>
+								</valueLine>
+								<valueLine xValue="52.0">
+								<values yValue="49846.2"/>
+								</valueLine>
+								<valueLine xValue="53.0">
+								<values yValue="48905.7"/>
+								</valueLine>
+								<valueLine xValue="54.0">
+								<values yValue="48000.0"/>
+								</valueLine>
+								<valueLine xValue="55.0">
+								<values yValue="47127.3"/>
+								</valueLine>
+								<valueLine xValue="56.0">
+								<values yValue="46285.7"/>
+								</valueLine>
+								<valueLine xValue="57.0">
+								<values yValue="45473.7"/>
+								</valueLine>
+								<valueLine xValue="58.0">
+								<values yValue="44689.7"/>
+								</valueLine>
+								<valueLine xValue="59.0">
+								<values yValue="43932.2"/>
+								</valueLine>
+								<valueLine xValue="60.0">
+								<values yValue="43200.0"/>
+								</valueLine>
+								<valueLine xValue="61.0">
+								<values yValue="42491.8"/>
+								</valueLine>
+								<valueLine xValue="62.0">
+								<values yValue="41806.5"/>
+								</valueLine>
+								<valueLine xValue="63.0">
+								<values yValue="41142.9"/>
+								</valueLine>
+								<valueLine xValue="64.0">
+								<values yValue="40500.0"/>
+								</valueLine>
+								<valueLine xValue="65.0">
+								<values yValue="39876.9"/>
+								</valueLine>
+								<valueLine xValue="66.0">
+								<values yValue="39272.7"/>
+								</valueLine>
+								<valueLine xValue="67.0">
+								<values yValue="38686.6"/>
+								</valueLine>
+								<valueLine xValue="68.0">
+								<values yValue="38117.6"/>
+								</valueLine>
+								<valueLine xValue="69.0">
+								<values yValue="37565.2"/>
+								</valueLine>
+								<valueLine xValue="70.0">
+								<values yValue="37028.6"/>
+								</valueLine>
+								<valueLine xValue="71.0">
+								<values yValue="36507.0"/>
+								</valueLine>
+								<valueLine xValue="72.0">
+								<values yValue="36000.0"/>
+								</valueLine>
+								<valueLine xValue="73.0">
+								<values yValue="35506.8"/>
+								</valueLine>
+								<valueLine xValue="74.0">
+								<values yValue="35027.0"/>
+								</valueLine>
+								<valueLine xValue="75.0">
+								<values yValue="34560.0"/>
+								</valueLine>
+								<valueLine xValue="76.0">
+								<values yValue="34105.3"/>
+								</valueLine>
+								<valueLine xValue="77.0">
+								<values yValue="33662.3"/>
+								</valueLine>
+								<valueLine xValue="78.0">
+								<values yValue="33230.8"/>
+								</valueLine>
+								<valueLine xValue="79.0">
+								<values yValue="32810.1"/>
+								</valueLine>
+								<valueLine xValue="80.0">
+								<values yValue="32400.0"/>
+								</valueLine>
+							</valueTable>
+						</tractiveEffort>
+					</propulsion>
+				</engine>
+			</vehicle>
+            <vehicle id="Mp" name="motor_pantograph" length="19" speed="80"  bruttoWeight="50" bruttoAdhesionWeight="50">
+				<engine>
+					<propulsion id="motor_pantograph" powerType="electric" power="720000" rotationMassFactor="1.000" description="other">
+						<tractiveEffort>
+							<valueTable xValueName="Speed" xValueUnit="km/h" yValueName="Tractive Effort" yValueUnit="N">
+								<valueLine xValue="0.0">
+								<values yValue="80850.0"/>
+								</valueLine>
+								<valueLine xValue="1.0">
+								<values yValue="80850.0"/>
+								</valueLine>
+								<valueLine xValue="32.1">
+								<values yValue="80850.0"/>
+								</valueLine>
+								<valueLine xValue="33.0">
+								<values yValue="78545.5"/>
+								</valueLine>
+								<valueLine xValue="34.0">
+								<values yValue="76235.3"/>
+								</valueLine>
+								<valueLine xValue="35.0">
+								<values yValue="74057.1"/>
+								</valueLine>
+								<valueLine xValue="36.0">
+								<values yValue="72000.0"/>
+								</valueLine>
+								<valueLine xValue="37.0">
+								<values yValue="70054.1"/>
+								</valueLine>
+								<valueLine xValue="38.0">
+								<values yValue="68210.5"/>
+								</valueLine>
+								<valueLine xValue="39.0">
+								<values yValue="66461.5"/>
+								</valueLine>
+								<valueLine xValue="40.0">
+								<values yValue="64800.0"/>
+								</valueLine>
+								<valueLine xValue="41.0">
+								<values yValue="63219.5"/>
+								</valueLine>
+								<valueLine xValue="42.0">
+								<values yValue="61714.3"/>
+								</valueLine>
+								<valueLine xValue="43.0">
+								<values yValue="60279.1"/>
+								</valueLine>
+								<valueLine xValue="44.0">
+								<values yValue="58909.1"/>
+								</valueLine>
+								<valueLine xValue="45.0">
+								<values yValue="57600.0"/>
+								</valueLine>
+								<valueLine xValue="46.0">
+								<values yValue="56347.8"/>
+								</valueLine>
+								<valueLine xValue="47.0">
+								<values yValue="55148.9"/>
+								</valueLine>
+								<valueLine xValue="48.0">
+								<values yValue="54000.0"/>
+								</valueLine>
+								<valueLine xValue="49.0">
+								<values yValue="52898.0"/>
+								</valueLine>
+								<valueLine xValue="50.0">
+								<values yValue="51840.0"/>
+								</valueLine>
+								<valueLine xValue="51.0">
+								<values yValue="50823.5"/>
+								</valueLine>
+								<valueLine xValue="52.0">
+								<values yValue="49846.2"/>
+								</valueLine>
+								<valueLine xValue="53.0">
+								<values yValue="48905.7"/>
+								</valueLine>
+								<valueLine xValue="54.0">
+								<values yValue="48000.0"/>
+								</valueLine>
+								<valueLine xValue="55.0">
+								<values yValue="47127.3"/>
+								</valueLine>
+								<valueLine xValue="56.0">
+								<values yValue="46285.7"/>
+								</valueLine>
+								<valueLine xValue="57.0">
+								<values yValue="45473.7"/>
+								</valueLine>
+								<valueLine xValue="58.0">
+								<values yValue="44689.7"/>
+								</valueLine>
+								<valueLine xValue="59.0">
+								<values yValue="43932.2"/>
+								</valueLine>
+								<valueLine xValue="60.0">
+								<values yValue="43200.0"/>
+								</valueLine>
+								<valueLine xValue="61.0">
+								<values yValue="42491.8"/>
+								</valueLine>
+								<valueLine xValue="62.0">
+								<values yValue="41806.5"/>
+								</valueLine>
+								<valueLine xValue="63.0">
+								<values yValue="41142.9"/>
+								</valueLine>
+								<valueLine xValue="64.0">
+								<values yValue="40500.0"/>
+								</valueLine>
+								<valueLine xValue="65.0">
+								<values yValue="39876.9"/>
+								</valueLine>
+								<valueLine xValue="66.0">
+								<values yValue="39272.7"/>
+								</valueLine>
+								<valueLine xValue="67.0">
+								<values yValue="38686.6"/>
+								</valueLine>
+								<valueLine xValue="68.0">
+								<values yValue="38117.6"/>
+								</valueLine>
+								<valueLine xValue="69.0">
+								<values yValue="37565.2"/>
+								</valueLine>
+								<valueLine xValue="70.0">
+								<values yValue="37028.6"/>
+								</valueLine>
+								<valueLine xValue="71.0">
+								<values yValue="36507.0"/>
+								</valueLine>
+								<valueLine xValue="72.0">
+								<values yValue="36000.0"/>
+								</valueLine>
+								<valueLine xValue="73.0">
+								<values yValue="35506.8"/>
+								</valueLine>
+								<valueLine xValue="74.0">
+								<values yValue="35027.0"/>
+								</valueLine>
+								<valueLine xValue="75.0">
+								<values yValue="34560.0"/>
+								</valueLine>
+								<valueLine xValue="76.0">
+								<values yValue="34105.3"/>
+								</valueLine>
+								<valueLine xValue="77.0">
+								<values yValue="33662.3"/>
+								</valueLine>
+								<valueLine xValue="78.0">
+								<values yValue="33230.8"/>
+								</valueLine>
+								<valueLine xValue="79.0">
+								<values yValue="32810.1"/>
+								</valueLine>
+								<valueLine xValue="80.0">
+								<values yValue="32400.0"/>
+								</valueLine>
+							</valueTable>
+						</tractiveEffort>
+                    </propulsion>
+				</engine>
+            </vehicle>
+            <vehicle id="Tc" name="trailer_control" length="20.34" speed="80" bruttoWeight="44.8">
+				<wagon auxiliaryPowerConsumption="0.0" rotationMassFactor="1.000"/>
+			</vehicle>
+        </vehicles>
+        <formations>
+            <formation id="line_1_train" name="Hefei Metro Line 1">
+                <trainOrder>
+					<vehicleRef orderNumber="1" vehicleRef="Tc" vehicleCount="1"/>
+					<vehicleRef orderNumber="2" vehicleRef="Mp" vehicleCount="1"/>
+					<vehicleRef orderNumber="3" vehicleRef="M" vehicleCount="2"/>
+                    <vehicleRef orderNumber="4" vehicleRef="Mp" vehicleCount="1"/>
+                    <vehicleRef orderNumber="5" vehicleRef="Tc" vehicleCount="1"/>
+				</trainOrder>
+                <trainResistance daviesMassDependent="false" daviesFactorA="4060" daviesFactorB="0" daviesFactorC="0.564"/>
+                
+            </formation>
+        </formations>
+    </rollingstock>
+</railml>

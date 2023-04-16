@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="200" name="east" trafficRouting="on_the_right" type="local" dependentLines="m">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<stations>
+		<station stationID="NE" name="northeast station" xNet="1000" yNet="2000" xWGS84="0" yWGS84="0">
+			<textElement xNetAnker="1000" yNetAnker="2000" xNetRef="1010" yNetRef="2000" xMakroAnker="1000" yMakroAnker="2000" xMakroRef="1010" yMakroRef="2000" xBfplAnker="1000" yBfplAnker="2000" xBfplRef="1010" yBfplRef="2000" xWGS84Anker="1000" yWGS84Anker="2000" xWGS84Ref="1010" yWGS84Ref="2000">
+				<font stretch="100" style="0" stylehint="5" weight="50" pointsize="8"/>
+			</textElement>
+		</station>
+		<station stationID="SE" name="southeast station" xNet="1100.07" yNet="0" xWGS84="0" yWGS84="0">
+			<textElement xNetAnker="1000" yNetAnker="-2000" xNetRef="1010" yNetRef="-2000" xMakroAnker="1000" yMakroAnker="-2000" xMakroRef="1010" yMakroRef="-2000" xBfplAnker="1000" yBfplAnker="-2000" xBfplRef="1010" yBfplRef="-2000" xWGS84Anker="1000" yWGS84Anker="-2000" xWGS84Ref="1010" yWGS84Ref="-2000">
+				<font stretch="100" style="0" stylehint="5" weight="50" pointsize="8"/>
+			</textElement>
+		</station>
+		<station stationID="ES" name="east station" xNet="2100" yNet="44.4444" xWGS84="0" yWGS84="0">
+			<textElement xNetAnker="2000" yNetAnker="0" xNetRef="2010" yNetRef="0" xMakroAnker="2000" yMakroAnker="0" xMakroRef="2010" yMakroRef="0" xBfplAnker="2000" yBfplAnker="0" xBfplRef="2010" yBfplRef="0" xWGS84Anker="2000" yWGS84Anker="0" xWGS84Ref="2010" yWGS84Ref="0">
+				<font stretch="100" style="0" stylehint="5" weight="50" pointsize="8"/>
+			</textElement>
+		</station>
+	</stations>
+	<nodes>
+		<node nodeID="9" x="2100" y="1900" xNet="2100" yNet="1900"/>
+		<node nodeID="11" x="2100" y="-1900" xNet="2100" yNet="-1900"/>
+		<node nodeID="12" x="2000" y="-2000" xNet="2000" yNet="-2000"/>
+		<node nodeID="32" x="2200" y="-100" xNet="2200" yNet="-100"/>
+		<node nodeID="37" x="2000" y="-200" xNet="2000" yNet="-200"/>
+		<switch start="46" endOfMainTrack="48" endOfBranchTrack="32" nodeID="31" x="2100" y="-200" xNet="2100" yNet="-200"/>
+		<switch start="21" endOfMainTrack="44" endOfBranchTrack="33" nodeID="34" x="2100" y="200" xNet="2100" yNet="200"/>
+		<switch start="44" endOfMainTrack="48" endOfBranchTrack="36" nodeID="35" x="2100" y="100" xNet="2100" yNet="100"/>
+		<switch start="45" endOfMainTrack="46" endOfBranchTrack="37" nodeID="38" x="2100" y="-300" xNet="2100" yNet="-300"/>
+		<node nodeID="39" x="2000" y="2000" xNet="2000" yNet="2000"/>
+		<node nodeID="21" x="2100" y="217" xNet="2100" yNet="217"/>
+		<node nodeID="44" x="2100" y="150" xNet="2100" yNet="150"/>
+		<node nodeID="45" x="2100" y="-316" xNet="2100" yNet="-316"/>
+		<node nodeID="46" x="2100" y="-250" xNet="2100" yNet="-250"/>
+		<stationBorder exitType="regular" stationID="ES" lineID="200" trackNumber="1" nodeID="47" x="2100" y="-332" xNet="2100" yNet="-332" referenceNode="45"/>
+		<stationBorder exitType="regular" stationID="ES" lineID="200" trackNumber="1" nodeID="16" x="2100" y="234" xNet="2100" yNet="234" referenceNode="21"/>
+		<track trackID="N-1" stationID="NE" type="timingPoint" nodeID="17" x="1100.0643" y="2000" xNet="1100.0643" yNet="2000" referenceNode="19"/>
+		<track trackID="E-2" stationID="ES" interlockingMachine="sw-c" nodeID="33" x="2200" y="100" xNet="2200" yNet="100" referenceNode="32"/>
+		<track trackID="E-3" stationID="ES" interlockingMachine="sw-c" nodeID="36" x="2000" y="0" xNet="2000" yNet="0" referenceNode="37"/>
+		<track trackID="E-1" stationID="ES" interlockingMachine="sw-c" nodeID="48" x="2100" y="33.333333" xNet="2100" yNet="33.333333" referenceNode="31"/>
+		<track trackID="S-1" stationID="SE" type="timingPoint" nodeID="18" x="1100.0701" y="-2000" xNet="1100.0701" yNet="-2000" referenceNode="23"/>
+		<stationBorder exitType="regular" stationID="NE" lineID="200" trackNumber="1" nodeID="22" x="1137.9564" y="2000" xNet="1137.9564" yNet="2000" referenceNode="17"/>
+		<stationBorder exitType="regular" stationID="NE" lineID="200" trackNumber="1" nodeID="19" x="1062.1723" y="2000" xNet="1062.1723" yNet="2000" referenceNode="17"/>
+		<stationBorder exitType="regular" stationID="SE" lineID="200" trackNumber="1" nodeID="23" x="1137.9619" y="-2000" xNet="1137.9619" yNet="-2000" referenceNode="18"/>
+		<stationBorder exitType="regular" stationID="SE" lineID="200" trackNumber="1" nodeID="25" x="1062.1783" y="-2000" xNet="1062.1783" yNet="-2000" referenceNode="18"/>
+		<signal interlockingMachine="sw-c" nodeID="26" x="2100" y="319" xNet="2100" yNet="319" referenceNode="16"/>
+		<signal interlockingMachine="sw-c" nodeID="27" x="2100" y="404" xNet="2100" yNet="404" referenceNode="26"/>
+		<signal interlockingMachine="sw-c" nodeID="28" x="2100" y="744" xNet="2100" yNet="744" referenceNode="27"/>
+		<signal interlockingMachine="sw-c" nodeID="29" x="2100" y="1084" xNet="2100" yNet="1084" referenceNode="28"/>
+		<signal interlockingMachine="sw-c" nodeID="30" x="2100" y="1424" xNet="2100" yNet="1424" referenceNode="29"/>
+		<signal interlockingMachine="sw-c" nodeID="49" x="2100" y="1764" xNet="2100" yNet="1764" referenceNode="30"/>
+		<signal interlockingMachine="sw-c" nodeID="50" x="1905.2699" y="2000" xNet="1905.2699" yNet="2000" referenceNode="39"/>
+		<signal interlockingMachine="sw-c" nodeID="51" x="1516.8766" y="2000" xNet="1516.8766" yNet="2000" referenceNode="50"/>
+		<signal interlockingMachine="sw-c" nodeID="52" x="967.44223" y="2000" xNet="967.44223" yNet="2000" referenceNode="19"/>
+		<signal interlockingMachine="sw-c" nodeID="53" x="484.31886" y="2000" xNet="484.31886" yNet="2000" referenceNode="52"/>
+		<signal interlockingMachine="sw-c" nodeID="64" x="219.08608" y="-2000" xNet="219.08608" yNet="-2000" referenceNode="40.m"/>
+		<signal interlockingMachine="sw-c" nodeID="65" x="598.00394" y="-2000" xNet="598.00394" yNet="-2000" referenceNode="64"/>
+		<signal interlockingMachine="sw-c" nodeID="66" x="976.92179" y="-2000" xNet="976.92179" yNet="-2000" referenceNode="65"/>
+		<signal interlockingMachine="sw-c" nodeID="67" x="1516.8797" y="-2000" xNet="1516.8797" yNet="-2000" referenceNode="23"/>
+		<signal interlockingMachine="sw-c" nodeID="68" x="1895.7976" y="-2000" xNet="1895.7976" yNet="-2000" referenceNode="67"/>
+		<signal interlockingMachine="sw-c" nodeID="69" x="2100" y="-1740" xNet="2100" yNet="-1740" referenceNode="11"/>
+		<signal interlockingMachine="sw-c" nodeID="70" x="2100" y="-1420" xNet="2100" yNet="-1420" referenceNode="69"/>
+		<signal interlockingMachine="sw-c" nodeID="71" x="2100" y="-1100" xNet="2100" yNet="-1100" referenceNode="70"/>
+		<signal interlockingMachine="sw-c" nodeID="72" x="2100" y="-780" xNet="2100" yNet="-780" referenceNode="71"/>
+		<signal interlockingMachine="sw-c" nodeID="73" x="2100" y="-460" xNet="2100" yNet="-460" referenceNode="72"/>
+	</nodes>
+	<links>
+		<link source="11" target="12" length="100" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="31" target="32" length="100" vmax="80" vmaxr="80" electrified="true"/>
+		<link source="32" target="33" length="1800" vmax="80" vmaxr="80" electrified="true"/>
+		<link source="33" target="34" length="100" vmax="80" vmaxr="80" electrified="true"/>
+		<link source="35" target="36" length="100" vmax="80" vmaxr="80" electrified="true"/>
+		<link source="36" target="37" length="1800" vmax="80" vmaxr="80" electrified="true"/>
+		<link source="37" target="38" length="100" vmax="80" vmaxr="80" electrified="true"/>
+		<link source="21" target="34" length="200" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="34" target="44" length="100" vmax="80" vmaxr="80" electrified="true"/>
+		<link source="44" target="35" length="100" vmax="80" vmaxr="80" electrified="true"/>
+		<link source="38" target="45" length="200" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="31" target="46" length="100" vmax="80" vmaxr="80" electrified="true"/>
+		<link source="46" target="38" length="100" vmax="80" vmaxr="80" electrified="true"/>
+		<link source="16" target="21" length="200" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="45" target="47" length="200" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="39" target="9" length="100" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="35" target="48" length="400" vmax="80" vmaxr="80" electrified="true"/>
+		<link source="48" target="31" length="1400" vmax="80" vmaxr="80" electrified="true"/>
+		<link source="19" target="17" length="400" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="17" target="22" length="400" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="23" target="18" length="400" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="18" target="25" length="400" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="26" target="16" length="1000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="27" target="26" length="1000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="28" target="27" length="4000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="29" target="28" length="4000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="30" target="29" length="4000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="9" target="49" length="1600" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="49" target="30" length="4000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="50" target="39" length="1000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="22" target="51" length="4000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="51" target="50" length="4100" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="52" target="19" length="1000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="10.m" target="53" length="3000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="53" target="52" length="5100" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="64" target="40.m" length="200" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="65" target="64" length="4000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="25" target="66" length="900" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="66" target="65" length="4000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="67" target="23" length="4000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="12" target="68" length="1100" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="68" target="67" length="4000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="69" target="11" length="2000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="70" target="69" length="4000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="71" target="70" length="4000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="72" target="71" length="4000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="47" target="73" length="1600" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="73" target="72" length="4000" vmax="120" vmaxr="120" electrified="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blockSection nodes="33 34 21 16 26"/>
+		<blockSection nodes="48 35 44 34 21 16 26"/>
+		<blockSection nodes="36 35 44 34 21 16 26"/>
+		<blockSection nodes="73 47 45 38 37 36"/>
+		<blockSection nodes="73 47 45 38 46 31 48"/>
+		<blockSection nodes="73 47 45 38 46 31 32 33"/>
+		<blockSection nodes="51 22 17 19 52"/>
+		<blockSection nodes="66 25 18 23 67"/>
+		<blockSection nodes="26 27"/>
+		<blockSection nodes="27 28"/>
+		<blockSection nodes="28 29"/>
+		<blockSection nodes="29 30"/>
+		<blockSection nodes="30 49"/>
+		<blockSection nodes="49 9 39 50"/>
+		<blockSection nodes="50 51"/>
+		<blockSection nodes="52 53"/>
+		<blockSection nodes="53 10.m 6.m 5.m 43.m 54.m"/>
+		<blockSection nodes="63.m 39.m 14.m 13.m 40.m 64"/>
+		<blockSection nodes="64 65"/>
+		<blockSection nodes="65 66"/>
+		<blockSection nodes="67 68"/>
+		<blockSection nodes="68 12 11 69"/>
+		<blockSection nodes="69 70"/>
+		<blockSection nodes="70 71"/>
+		<blockSection nodes="71 72"/>
+		<blockSection nodes="72 73"/>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="NE" name="[ES]-[200/1]-[1]-[MS]-[200/1] (1)" continuousMainTrack="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="22 17 19"/>
+		<stationRoute stationID="SE" name="[MS]-[200/1]-[1]-[ES]-[200/1] (1)" continuousMainTrack="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="25 18 23"/>
+		<stationRoute stationID="ES" name="[SE]-[200/1]-[3]-[NE]-[200/1] (2)" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="47 45 38 37 36 35 44 34 21 16"/>
+		<stationRoute stationID="ES" name="[SE]-[200/1]-[2]-[NE]-[200/1] (2)" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="47 45 38 46 31 32 33 34 21 16"/>
+		<stationRoute stationID="ES" name="[SE]-[200/1]-[1]-[NE]-[200/1] (1)" continuousMainTrack="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="47 45 38 46 31 48 35 44 34 21 16"/>
+	</stationRoutes>
+	<evzg/>
+	<evzg-katalog/>
+</line>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<railsys>
+	<version major="1" minor="2" patchlevel="0" comment="Erzeugt von RailSys\Simu/7.6.12 am Do 28. Nov 11:54:54 2019"/>
+	<timetable>
+		<train number="100" class="FRz" pattern="/Rz" name="100" typeNumber="62" constructionState="verkehrt">
+			<header>
+				<service opday="127" extOpday="16"/>
+			</header>
+			<timetableentries>
+				<entry stationID="WS" trackID="W-1" bstfahrweg="[SW]-[100/1]-[1]-[NW]-[100/1] (1)" departure="01:00:00" minStopTime="120" stopTime="120" regularRunningTime="797" type="stop" trainTypeNumber="62" lineID="100" timingPoint="true" departureFix="true"/>
+				<entry stationID="NW" trackID="N-1" bstfahrweg="[WS]-[100/1]-[1]-[MS]-[100/1] (1)" departure="01:13:17" regularRunningTime="902" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="MS" trackID="M-1" bstfahrweg="[NW]-[100/1]-[1]-[SW]-[100/1] (2)" departure="01:28:19" regularRunningTime="866" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="SW" trackID="S-1" bstfahrweg="[MS]-[100/1]-[1]-[WS]-[100/1] (1)" departure="01:42:45" regularRunningTime="789" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="WS" trackID="W-2" bstfahrweg="[SW]-[100/1]-[2]-[NW]-[100/1] (2)" departure="01:57:54" minStopTime="120" stopTime="120" RTMargin2="0" type="stop" trainTypeNumber="62" timingPoint="true"/>
+			</timetableentries>
+		</train>
+		<train number="102" class="FRz" pattern="/Rz" name="102" typeNumber="62" constructionState="verkehrt">
+			<header>
+				<service opday="127" extOpday="16"/>
+			</header>
+			<timetableentries>
+				<entry stationID="WS" trackID="W-1" bstfahrweg="[SW]-[100/1]-[1]-[NW]-[100/1] (1)" departure="01:20:00" minStopTime="120" stopTime="120" regularRunningTime="797" type="stop" trainTypeNumber="62" lineID="100" timingPoint="true" departureFix="true"/>
+				<entry stationID="NW" trackID="N-1" bstfahrweg="[WS]-[100/1]-[1]-[MS]-[100/1] (1)" departure="01:33:17" regularRunningTime="902" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="MS" trackID="M-1" bstfahrweg="[NW]-[100/1]-[1]-[SW]-[100/1] (2)" departure="01:48:19" regularRunningTime="866" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="SW" trackID="S-1" bstfahrweg="[MS]-[100/1]-[1]-[WS]-[100/1] (1)" departure="02:02:45" regularRunningTime="789" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="WS" trackID="W-2" bstfahrweg="[SW]-[100/1]-[2]-[NW]-[100/1] (2)" departure="02:17:54" minStopTime="120" stopTime="120" RTMargin2="0" type="stop" trainTypeNumber="62" timingPoint="true"/>
+			</timetableentries>
+		</train>
+		<train number="104" class="FRz" pattern="/Rz" name="104" typeNumber="62" constructionState="verkehrt">
+			<header>
+				<service opday="127" extOpday="16"/>
+			</header>
+			<timetableentries>
+				<entry stationID="WS" trackID="W-1" bstfahrweg="[SW]-[100/1]-[1]-[NW]-[100/1] (1)" departure="01:40:00" minStopTime="120" stopTime="120" regularRunningTime="797" type="stop" trainTypeNumber="62" lineID="100" timingPoint="true" departureFix="true"/>
+				<entry stationID="NW" trackID="N-1" bstfahrweg="[WS]-[100/1]-[1]-[MS]-[100/1] (1)" departure="01:53:17" regularRunningTime="902" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="MS" trackID="M-1" bstfahrweg="[NW]-[100/1]-[1]-[SW]-[100/1] (2)" departure="02:08:19" regularRunningTime="866" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="SW" trackID="S-1" bstfahrweg="[MS]-[100/1]-[1]-[WS]-[100/1] (1)" departure="02:22:45" regularRunningTime="789" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="WS" trackID="W-2" bstfahrweg="[SW]-[100/1]-[2]-[NW]-[100/1] (2)" departure="02:37:54" minStopTime="120" stopTime="120" RTMargin2="0" type="stop" trainTypeNumber="62" timingPoint="true"/>
+			</timetableentries>
+		</train>
+		<train number="106" class="FRz" pattern="/Rz" name="106" typeNumber="62" constructionState="verkehrt">
+			<header>
+				<service opday="127" extOpday="16"/>
+			</header>
+			<timetableentries>
+				<entry stationID="WS" trackID="W-1" bstfahrweg="[SW]-[100/1]-[1]-[NW]-[100/1] (1)" departure="02:00:00" minStopTime="120" stopTime="120" regularRunningTime="797" type="stop" trainTypeNumber="62" lineID="100" timingPoint="true" departureFix="true"/>
+				<entry stationID="NW" trackID="N-1" bstfahrweg="[WS]-[100/1]-[1]-[MS]-[100/1] (1)" departure="02:13:17" regularRunningTime="902" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="MS" trackID="M-1" bstfahrweg="[NW]-[100/1]-[1]-[SW]-[100/1] (2)" departure="02:28:19" regularRunningTime="866" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="SW" trackID="S-1" bstfahrweg="[MS]-[100/1]-[1]-[WS]-[100/1] (1)" departure="02:42:45" regularRunningTime="789" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="WS" trackID="W-2" bstfahrweg="[SW]-[100/1]-[2]-[NW]-[100/1] (2)" departure="02:57:54" minStopTime="120" stopTime="120" RTMargin2="0" type="stop" trainTypeNumber="62" timingPoint="true"/>
+			</timetableentries>
+		</train>
+		<train number="108" class="FRz" pattern="/Rz" name="108" typeNumber="62" constructionState="verkehrt">
+			<header>
+				<service opday="127" extOpday="16"/>
+			</header>
+			<timetableentries>
+				<entry stationID="WS" trackID="W-1" bstfahrweg="[SW]-[100/1]-[1]-[NW]-[100/1] (1)" departure="02:20:00" minStopTime="120" stopTime="120" regularRunningTime="797" type="stop" trainTypeNumber="62" lineID="100" timingPoint="true" departureFix="true"/>
+				<entry stationID="NW" trackID="N-1" bstfahrweg="[WS]-[100/1]-[1]-[MS]-[100/1] (1)" departure="02:33:17" regularRunningTime="902" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="MS" trackID="M-1" bstfahrweg="[NW]-[100/1]-[1]-[SW]-[100/1] (2)" departure="02:48:19" regularRunningTime="866" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="SW" trackID="S-1" bstfahrweg="[MS]-[100/1]-[1]-[WS]-[100/1] (1)" departure="03:02:45" regularRunningTime="789" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="WS" trackID="W-2" bstfahrweg="[SW]-[100/1]-[2]-[NW]-[100/1] (2)" departure="03:17:54" minStopTime="120" stopTime="120" RTMargin2="0" type="stop" trainTypeNumber="62" timingPoint="true"/>
+			</timetableentries>
+		</train>
+		<train number="110" class="FRz" pattern="/Rz" name="110" typeNumber="62" constructionState="verkehrt">
+			<header>
+				<service opday="127" extOpday="16"/>
+			</header>
+			<timetableentries>
+				<entry stationID="WS" trackID="W-1" bstfahrweg="[SW]-[100/1]-[1]-[NW]-[100/1] (1)" departure="02:40:00" minStopTime="120" stopTime="120" regularRunningTime="797" type="stop" trainTypeNumber="62" lineID="100" timingPoint="true" departureFix="true"/>
+				<entry stationID="NW" trackID="N-1" bstfahrweg="[WS]-[100/1]-[1]-[MS]-[100/1] (1)" departure="02:53:17" regularRunningTime="902" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="MS" trackID="M-1" bstfahrweg="[NW]-[100/1]-[1]-[SW]-[100/1] (2)" departure="03:08:19" regularRunningTime="866" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="SW" trackID="S-1" bstfahrweg="[MS]-[100/1]-[1]-[WS]-[100/1] (1)" departure="03:22:45" regularRunningTime="789" type="pass" trainTypeNumber="62" timingPoint="true"/>
+				<entry stationID="WS" trackID="W-2" bstfahrweg="[SW]-[100/1]-[2]-[NW]-[100/1] (2)" departure="03:37:54" minStopTime="120" stopTime="120" RTMargin2="0" type="stop" trainTypeNumber="62" timingPoint="true"/>
+			</timetableentries>
+		</train>
+	</timetable>
+</railsys>

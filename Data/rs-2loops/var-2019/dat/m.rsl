@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<line lineID="m" name="middel" trafficRouting="on_the_right" type="global" dependentLines="100 200">
+	<version major="1" minor="2" patchlevel="0" comment=""/>
+	<stations>
+		<station stationID="MS" name="middel station" xNet="0" yNet="0"/>
+	</stations>
+	<nodes>
+		<node nodeID="6" x="100" y="2000" xNet="100" yNet="2000"/>
+		<node nodeID="13" x="100" y="-2000" xNet="100" yNet="-2000"/>
+		<node nodeID="15" x="-100" y="-2000" xNet="-100" yNet="-2000"/>
+		<node nodeID="20" x="-100" y="2000" xNet="-100" yNet="2000"/>
+		<switch start="43" endOfMainTrack="6" endOfBranchTrack="20" nodeID="5" x="0" y="1900" xNet="0" yNet="1900"/>
+		<switch start="39" endOfMainTrack="13" endOfBranchTrack="15" nodeID="14" x="0" y="-1900" xNet="0" yNet="-1900"/>
+		<node nodeID="24" x="0" y="200" xNet="0" yNet="200"/>
+		<node nodeID="1" x="0" y="-200" xNet="0" yNet="-200"/>
+		<node nodeID="43" x="0" y="1883" xNet="0" yNet="1883"/>
+		<node nodeID="39" x="0" y="-1883" xNet="0" yNet="-1883"/>
+		<stationBorder exitType="regular" stationID="MS" lineID="200" trackNumber="1" nodeID="10" x="200.12865" y="2000" xNet="200.12865" yNet="2000" referenceNode="6">
+			<netLimitInfo lineID="200" stationID="NE" stationName="northeast station"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="MS" lineID="100" trackNumber="1" nodeID="42" x="-200.23364" y="2000" xNet="-200.23364" yNet="2000" referenceNode="20">
+			<netLimitInfo lineID="100" stationID="NW" stationName="northwest station"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="MS" lineID="200" trackNumber="1" nodeID="40" x="200.14019" y="-2000" xNet="200.14019" yNet="-2000" referenceNode="13">
+			<netLimitInfo lineID="200" stationID="SE" stationName="southeast station"/>
+		</stationBorder>
+		<stationBorder exitType="regular" stationID="MS" lineID="100" trackNumber="1" nodeID="41" x="-200.23364" y="-2000" xNet="-200.23364" yNet="-2000" referenceNode="15">
+			<netLimitInfo lineID="100" stationID="SW" stationName="southwest station"/>
+		</stationBorder>
+		<signal interlockingMachine="sw-c" nodeID="54" x="0" y="1798" xNet="0" yNet="1798" referenceNode="43"/>
+		<signal interlockingMachine="sw-c" nodeID="55" x="0" y="1458" xNet="0" yNet="1458" referenceNode="54"/>
+		<signal interlockingMachine="sw-c" nodeID="56" x="0" y="1118" xNet="0" yNet="1118" referenceNode="55"/>
+		<signal interlockingMachine="sw-c" nodeID="57" x="0" y="778" xNet="0" yNet="778" referenceNode="56"/>
+		<signal interlockingMachine="sw-c" nodeID="58" x="0" y="438" xNet="0" yNet="438" referenceNode="57"/>
+		<signal interlockingMachine="sw-c" nodeID="59" x="0" y="-234" xNet="0" yNet="-234" referenceNode="1"/>
+		<signal interlockingMachine="sw-c" nodeID="60" x="0" y="-574" xNet="0" yNet="-574" referenceNode="59"/>
+		<signal interlockingMachine="sw-c" nodeID="61" x="0" y="-914" xNet="0" yNet="-914" referenceNode="60"/>
+		<signal interlockingMachine="sw-c" nodeID="62" x="0" y="-1254" xNet="0" yNet="-1254" referenceNode="61"/>
+		<signal interlockingMachine="sw-c" nodeID="63" x="0" y="-1594" xNet="0" yNet="-1594" referenceNode="62"/>
+		<track trackID="M-1" stationID="MS" type="timingPoint" nodeID="2" x="0" y="0" xNet="0" yNet="0" referenceNode="1"/>
+	</nodes>
+	<links>
+		<link source="5" target="6" length="200" vmax="80" vmaxr="80" electrified="true"/>
+		<link source="13" target="14" length="200" vmax="80" vmaxr="80" electrified="true"/>
+		<link source="14" target="15" length="200" vmax="80" vmaxr="80" electrified="true"/>
+		<link source="20" target="5" length="200" vmax="80" vmaxr="80" electrified="true"/>
+		<link source="1" target="2" length="1000" vmax="300" vmaxr="300" electrified="true"/>
+		<link source="2" target="24" length="1000" vmax="300" vmaxr="300" electrified="true"/>
+		<link source="6" target="10" length="1000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="40" target="13" length="1000" vmax="120" vmaxr="120" electrified="true"/>
+		<link source="15" target="41" length="1000" vmax="300" vmaxr="300" electrified="true"/>
+		<link source="42" target="20" length="1000" vmax="300" vmaxr="300" electrified="true"/>
+		<link source="43" target="5" length="200" vmax="300" vmaxr="300" electrified="true"/>
+		<link source="14" target="39" length="200" vmax="300" vmaxr="300" electrified="true"/>
+		<link source="54" target="43" length="1000" vmax="300" vmaxr="300" electrified="true"/>
+		<link source="55" target="54" length="4000" vmax="300" vmaxr="300" electrified="true"/>
+		<link source="56" target="55" length="4000" vmax="300" vmaxr="300" electrified="true"/>
+		<link source="57" target="56" length="4000" vmax="300" vmaxr="300" electrified="true"/>
+		<link source="24" target="58" length="2800" vmax="300" vmaxr="300" electrified="true"/>
+		<link source="58" target="57" length="4000" vmax="300" vmaxr="300" electrified="true"/>
+		<link source="59" target="1" length="400" vmax="300" vmaxr="300" electrified="true"/>
+		<link source="60" target="59" length="4000" vmax="300" vmaxr="300" electrified="true"/>
+		<link source="61" target="60" length="4000" vmax="300" vmaxr="300" electrified="true"/>
+		<link source="62" target="61" length="4000" vmax="300" vmaxr="300" electrified="true"/>
+		<link source="39" target="63" length="3400" vmax="300" vmaxr="300" electrified="true"/>
+		<link source="63" target="62" length="4000" vmax="300" vmaxr="300" electrified="true"/>
+	</links>
+	<dependentLinks/>
+	<blockSections>
+		<blockSection nodes="54 55"/>
+		<blockSection nodes="55 56"/>
+		<blockSection nodes="56 57"/>
+		<blockSection nodes="57 58"/>
+		<blockSection nodes="58 24 2 1 59"/>
+		<blockSection nodes="59 60"/>
+		<blockSection nodes="60 61"/>
+		<blockSection nodes="61 62"/>
+		<blockSection nodes="62 63"/>
+	</blockSections>
+	<slipDistances/>
+	<approachControlRoutes/>
+	<stationRoutes>
+		<stationRoute stationID="MS" name="[NW]-[100/1]-[1]-[SE]-[200/1] (2)" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="42 20 5 43 54 55 56 57 58 24 2 1 59 60 61 62 63 39 14 13 40"/>
+		<stationRoute stationID="MS" name="[NE]-[200/1]-[1]-[SW]-[100/1] (2)" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=95;NRz=95;S=95;Rz=95;FGz=95;NGz=95;Gz=95;Lz=95;Unbekannt=95" nodes="10 6 5 43 54 55 56 57 58 24 2 1 59 60 61 62 63 39 14 15 41"/>
+		<stationRoute stationID="MS" name="[NE]-[200/1]-[1]-[SE]-[200/1] (1)" continuousMainTrack="true" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=100;NRz=100;S=100;Rz=100;FGz=100;NGz=100;Gz=100;Lz=100;Unbekannt=100" nodes="10 6 5 43 54 55 56 57 58 24 2 1 59 60 61 62 63 39 14 13 40"/>
+		<stationRoute stationID="MS" name="[NW]-[100/1]-[1]-[SW]-[100/1] (2)" usableBy="FRz;NRz;S;Rz;FGz;NGz;Gz;Lz;Unbekannt" priorities="FRz=90;NRz=90;S=90;Rz=90;FGz=90;NGz=90;Gz=90;Lz=90;Unbekannt=90" nodes="42 20 5 43 54 55 56 57 58 24 2 1 59 60 61 62 63 39 14 15 41"/>
+	</stationRoutes>
+	<evzg/>
+	<evzg-katalog/>
+</line>
