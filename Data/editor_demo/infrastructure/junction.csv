@@ -1,0 +1,5 @@
+Name;Type;Station_Name;Description;X;Y
+W100;2;West;Switch 100;-410;0.0
+W101;2;West;Switch 101;-290;0.0
+W400;2;East;Switch 400;290.0;0.0
+W401;2;East;Switch 401;410.0;0.0

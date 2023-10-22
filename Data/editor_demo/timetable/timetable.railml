@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<railml version="2.2">
+<infrastructure/>
+<rollingstock/>
+<timetable>
+<trainParts>
+<trainPart description="" id="we100-1" trainNumber="100">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="West%S101%10W-10E_0_OP-S101" ocpType="stop">
+<times arrival="00:07:03.0" departure="00:08:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2001%20W-20E_0_OP-S2001" ocpType="stop">
+<times arrival="00:10:03.0" departure="00:11:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3001%30W-30E_0_OP-S3001" ocpType="stop">
+<times arrival="00:13:04.0" departure="00:14:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="East%S401%40W-40E_0_OP-S401" ocpType="stop">
+<times arrival="00:17:04.0" departure="00:18:01.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="we102-1" trainNumber="102">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="West%S101%10W-10E_0_OP-S101" ocpType="stop">
+<times arrival="00:17:03.0" departure="00:18:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2001%20W-20E_0_OP-S2001" ocpType="stop">
+<times arrival="00:20:03.0" departure="00:21:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3001%30W-30E_0_OP-S3001" ocpType="stop">
+<times arrival="00:23:04.0" departure="00:24:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="East%S401%40W-40E_0_OP-S401" ocpType="stop">
+<times arrival="00:27:04.0" departure="00:28:01.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="we104-1" trainNumber="104">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="West%S101%10W-10E_0_OP-S101" ocpType="stop">
+<times arrival="00:27:03.0" departure="00:28:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2001%20W-20E_0_OP-S2001" ocpType="stop">
+<times arrival="00:30:03.0" departure="00:31:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3001%30W-30E_0_OP-S3001" ocpType="stop">
+<times arrival="00:33:04.0" departure="00:34:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="East%S401%40W-40E_0_OP-S401" ocpType="stop">
+<times arrival="00:37:04.0" departure="00:38:01.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="we106-1" trainNumber="106">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="West%S101%10W-10E_0_OP-S101" ocpType="stop">
+<times arrival="00:37:03.0" departure="00:38:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2001%20W-20E_0_OP-S2001" ocpType="stop">
+<times arrival="00:40:03.0" departure="00:41:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3001%30W-30E_0_OP-S3001" ocpType="stop">
+<times arrival="00:43:04.0" departure="00:44:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="East%S401%40W-40E_0_OP-S401" ocpType="stop">
+<times arrival="00:47:04.0" departure="00:48:01.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="we108-1" trainNumber="108">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="West%S101%10W-10E_0_OP-S101" ocpType="stop">
+<times arrival="00:47:03.0" departure="00:48:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2001%20W-20E_0_OP-S2001" ocpType="stop">
+<times arrival="00:50:03.0" departure="00:51:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3001%30W-30E_0_OP-S3001" ocpType="stop">
+<times arrival="00:53:04.0" departure="00:54:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="East%S401%40W-40E_0_OP-S401" ocpType="stop">
+<times arrival="00:57:04.0" departure="00:58:01.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="we110-1" trainNumber="110">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="West%S101%10W-10E_0_OP-S101" ocpType="stop">
+<times arrival="00:57:03.0" departure="00:58:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2001%20W-20E_0_OP-S2001" ocpType="stop">
+<times arrival="01:00:03.0" departure="01:01:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3001%30W-30E_0_OP-S3001" ocpType="stop">
+<times arrival="01:03:04.0" departure="01:04:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="East%S401%40W-40E_0_OP-S401" ocpType="stop">
+<times arrival="01:07:04.0" departure="01:08:01.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="we112-1" trainNumber="112">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="West%S101%10W-10E_0_OP-S101" ocpType="stop">
+<times arrival="01:07:03.0" departure="01:08:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2001%20W-20E_0_OP-S2001" ocpType="stop">
+<times arrival="01:10:03.0" departure="01:11:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3001%30W-30E_0_OP-S3001" ocpType="stop">
+<times arrival="01:13:04.0" departure="01:14:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="East%S401%40W-40E_0_OP-S401" ocpType="stop">
+<times arrival="01:17:04.0" departure="01:18:01.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="we114-1" trainNumber="114">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="West%S101%10W-10E_0_OP-S101" ocpType="stop">
+<times arrival="01:17:03.0" departure="01:18:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2001%20W-20E_0_OP-S2001" ocpType="stop">
+<times arrival="01:20:03.0" departure="01:21:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3001%30W-30E_0_OP-S3001" ocpType="stop">
+<times arrival="01:23:04.0" departure="01:24:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="East%S401%40W-40E_0_OP-S401" ocpType="stop">
+<times arrival="01:27:04.0" departure="01:28:01.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="we116-1" trainNumber="116">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="West%S101%10W-10E_0_OP-S101" ocpType="stop">
+<times arrival="01:27:03.0" departure="01:28:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2001%20W-20E_0_OP-S2001" ocpType="stop">
+<times arrival="01:30:03.0" departure="01:31:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3001%30W-30E_0_OP-S3001" ocpType="stop">
+<times arrival="01:33:04.0" departure="01:34:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="East%S401%40W-40E_0_OP-S401" ocpType="stop">
+<times arrival="01:37:04.0" departure="01:38:01.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="we118-1" trainNumber="118">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="West%S101%10W-10E_0_OP-S101" ocpType="stop">
+<times arrival="01:37:03.0" departure="01:38:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2001%20W-20E_0_OP-S2001" ocpType="stop">
+<times arrival="01:40:03.0" departure="01:41:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3001%30W-30E_0_OP-S3001" ocpType="stop">
+<times arrival="01:43:04.0" departure="01:44:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="East%S401%40W-40E_0_OP-S401" ocpType="stop">
+<times arrival="01:47:04.0" departure="01:48:01.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew101-1" trainNumber="101">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="07:59:30.0" departure="08:00:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="08:03:31.0" departure="08:04:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="08:06:41.0" departure="08:07:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="08:09:46.0" departure="08:10:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew103-1" trainNumber="103">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="08:29:30.0" departure="08:30:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="08:33:31.0" departure="08:34:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="08:36:41.0" departure="08:37:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="08:39:46.0" departure="08:40:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew105-1" trainNumber="105">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="08:59:30.0" departure="09:00:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="09:03:31.0" departure="09:04:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="09:06:41.0" departure="09:07:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="09:09:46.0" departure="09:10:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew107-1" trainNumber="107">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="09:29:30.0" departure="09:30:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="09:33:31.0" departure="09:34:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="09:36:41.0" departure="09:37:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="09:39:46.0" departure="09:40:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew109-1" trainNumber="109">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="09:59:30.0" departure="10:00:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="10:03:31.0" departure="10:04:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="10:06:41.0" departure="10:07:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="10:09:46.0" departure="10:10:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew111-1" trainNumber="111">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="10:29:30.0" departure="10:30:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="10:33:31.0" departure="10:34:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="10:36:41.0" departure="10:37:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="10:39:46.0" departure="10:40:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew113-1" trainNumber="113">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="10:59:30.0" departure="11:00:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="11:03:31.0" departure="11:04:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="11:06:41.0" departure="11:07:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="11:09:46.0" departure="11:10:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew115-1" trainNumber="115">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="11:29:30.0" departure="11:30:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="11:33:31.0" departure="11:34:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="11:36:41.0" departure="11:37:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="11:39:46.0" departure="11:40:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew117-1" trainNumber="117">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="11:59:30.0" departure="12:00:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="12:03:31.0" departure="12:04:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="12:06:41.0" departure="12:07:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="12:09:46.0" departure="12:10:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew119-1" trainNumber="119">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="12:29:30.0" departure="12:30:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="12:33:31.0" departure="12:34:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="12:36:41.0" departure="12:37:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="12:39:46.0" departure="12:40:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew121-1" trainNumber="121">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="12:59:30.0" departure="13:00:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="13:03:31.0" departure="13:04:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="13:06:41.0" departure="13:07:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="13:09:46.0" departure="13:10:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew123-1" trainNumber="123">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="13:29:30.0" departure="13:30:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="13:33:31.0" departure="13:34:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="13:36:41.0" departure="13:37:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="13:39:46.0" departure="13:40:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew125-1" trainNumber="125">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="13:59:30.0" departure="14:00:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="14:03:31.0" departure="14:04:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="14:06:41.0" departure="14:07:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="14:09:46.0" departure="14:10:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew127-1" trainNumber="127">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="14:29:30.0" departure="14:30:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="14:33:31.0" departure="14:34:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="14:36:41.0" departure="14:37:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="14:39:46.0" departure="14:40:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew129-1" trainNumber="129">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="14:59:30.0" departure="15:00:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="15:03:31.0" departure="15:04:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="15:06:41.0" departure="15:07:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="15:09:46.0" departure="15:10:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew131-1" trainNumber="131">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="15:29:30.0" departure="15:30:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="15:33:31.0" departure="15:34:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="15:36:41.0" departure="15:37:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="15:39:46.0" departure="15:40:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew133-1" trainNumber="133">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="15:59:30.0" departure="16:00:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="16:03:31.0" departure="16:04:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="16:06:41.0" departure="16:07:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="16:09:46.0" departure="16:10:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew135-1" trainNumber="135">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="16:29:30.0" departure="16:30:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="16:33:31.0" departure="16:34:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="16:36:41.0" departure="16:37:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="16:39:46.0" departure="16:40:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew137-1" trainNumber="137">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="16:59:30.0" departure="17:00:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="17:03:31.0" departure="17:04:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="17:06:41.0" departure="17:07:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="17:09:46.0" departure="17:10:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+<trainPart description="" id="ew139-1" trainNumber="139">
+<formationTT formationRef="line_1_train"/>
+<ocpsTT>
+<ocpTT ocpRef="East%S402%40E-40W_0_OP-S402" ocpType="stop">
+<times arrival="17:29:30.0" departure="17:30:00.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M2%S3002%30E-30W_0_OP-S3002" ocpType="stop">
+<times arrival="17:33:31.0" departure="17:34:01.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="M1%S2002%20E-20W_0_OP-S2002" ocpType="stop">
+<times arrival="17:36:41.0" departure="17:37:11.0" scope="scheduled"/>
+</ocpTT>
+<ocpTT ocpRef="West%S102%10E-10W_0_OP-S102" ocpType="stop">
+<times arrival="17:39:46.0" departure="17:40:16.0" scope="scheduled"/>
+</ocpTT>
+</ocpsTT>
+</trainPart>
+</trainParts>
+<trains>
+<train description="" id="we100" trainNumber="100" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="we100-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="we102" trainNumber="102" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="we102-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="we104" trainNumber="104" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="we104-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="we106" trainNumber="106" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="we106-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="we108" trainNumber="108" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="we108-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="we110" trainNumber="110" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="we110-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="we112" trainNumber="112" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="we112-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="we114" trainNumber="114" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="we114-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="we116" trainNumber="116" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="we116-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="we118" trainNumber="118" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="we118-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew101" trainNumber="101" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew101-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew103" trainNumber="103" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew103-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew105" trainNumber="105" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew105-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew107" trainNumber="107" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew107-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew109" trainNumber="109" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew109-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew111" trainNumber="111" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew111-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew113" trainNumber="113" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew113-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew115" trainNumber="115" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew115-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew117" trainNumber="117" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew117-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew119" trainNumber="119" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew119-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew121" trainNumber="121" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew121-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew123" trainNumber="123" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew123-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew125" trainNumber="125" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew125-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew127" trainNumber="127" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew127-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew129" trainNumber="129" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew129-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew131" trainNumber="131" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew131-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew133" trainNumber="133" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew133-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew135" trainNumber="135" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew135-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew137" trainNumber="137" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew137-1"/>
+</trainPartSequence>
+</train>
+<train description="" id="ew139" trainNumber="139" type="operational">
+<trainPartSequence sequence="1">
+<trainPartRef ref="ew139-1"/>
+</trainPartSequence>
+</train>
+</trains>
+<trainGroups>
+<trainGroup description="west-east" id="we">
+<trainRef ref="we100" sequence="1"/>
+<trainRef ref="we102" sequence="2"/>
+<trainRef ref="we104" sequence="3"/>
+<trainRef ref="we106" sequence="4"/>
+<trainRef ref="we108" sequence="5"/>
+<trainRef ref="we110" sequence="6"/>
+<trainRef ref="we112" sequence="7"/>
+<trainRef ref="we114" sequence="8"/>
+<trainRef ref="we116" sequence="9"/>
+<trainRef ref="we118" sequence="10"/>
+</trainGroup>
+<trainGroup description="Esst=West" id="ew">
+<trainRef ref="ew101" sequence="1"/>
+<trainRef ref="ew103" sequence="2"/>
+<trainRef ref="ew105" sequence="3"/>
+<trainRef ref="ew107" sequence="4"/>
+<trainRef ref="ew109" sequence="5"/>
+<trainRef ref="ew111" sequence="6"/>
+<trainRef ref="ew113" sequence="7"/>
+<trainRef ref="ew115" sequence="8"/>
+<trainRef ref="ew117" sequence="9"/>
+<trainRef ref="ew119" sequence="10"/>
+<trainRef ref="ew121" sequence="11"/>
+<trainRef ref="ew123" sequence="12"/>
+<trainRef ref="ew125" sequence="13"/>
+<trainRef ref="ew127" sequence="14"/>
+<trainRef ref="ew129" sequence="15"/>
+<trainRef ref="ew131" sequence="16"/>
+<trainRef ref="ew133" sequence="17"/>
+<trainRef ref="ew135" sequence="18"/>
+<trainRef ref="ew137" sequence="19"/>
+<trainRef ref="ew139" sequence="20"/>
+</trainGroup>
+</trainGroups>
+</timetable>
+</railml>

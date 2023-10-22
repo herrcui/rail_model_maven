@@ -1,0 +1,11 @@
+Name;Station_Name;Description;Length
+G403;East;Gleis 403;1500.0
+G101;West;Track 101;300.0
+G200;M1;Track 200;1500.0
+G100;West;Track 100;300.0
+G103;West;Track 103;300.0
+G400;East;Track 400;1500.0
+G102;West;Track 102;300.0
+G300;M2;Track 300;1500.0
+G402;East;Track 402;300.0
+G401;East;Track 401;300.0
