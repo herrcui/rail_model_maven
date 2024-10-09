@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>RailModel</groupId>
+  <artifactId>StandardisedEvaluation</artifactId>
+  <versioning>
+    <lastUpdated>20241009022328</lastUpdated>
+    <snapshot>
+      <timestamp>20241009.022328</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.1-20241009.022328-1</value>
+        <updated>20241009022328</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.1-20241009.022328-1</value>
+        <updated>20241009022328</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.0.1-SNAPSHOT</version>
+</metadata>

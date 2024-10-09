@@ -3,21 +3,21 @@
   <groupId>RailModel</groupId>
   <artifactId>RailSimulator</artifactId>
   <versioning>
-    <lastUpdated>20240407153444</lastUpdated>
+    <lastUpdated>20241009022328</lastUpdated>
     <snapshot>
-      <timestamp>20240407.153444</timestamp>
-      <buildNumber>14</buildNumber>
+      <timestamp>20241009.022328</timestamp>
+      <buildNumber>46</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-20240407.153444-14</value>
-        <updated>20240407153444</updated>
+        <value>0.0.1-20241009.022328-46</value>
+        <updated>20241009022328</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.1-20240407.153444-14</value>
-        <updated>20240407153444</updated>
+        <value>0.0.1-20241009.022328-46</value>
+        <updated>20241009022328</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
